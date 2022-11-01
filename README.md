@@ -1,3 +1,77 @@
+# Welcome to Insight's Workshop
+
+
+## Hi There 👋
+
+Welcome to Insight's workshop on GitHub!
+
+ Our team here at Insight EMEA have developed four workshops within this repository for you to explore what GitHub has to offer and how GitHub features can help improve your companies current working practices and how you can accelerate your offering from development to production.
+
+The labs setup within the **Welcome to Insight’s Workshop** repository will provide a deep dive, hands-on experience into the below technologies and service and how you can use them to optimise your workflow:
+
+ - Git
+ - Pull Requests & Issues
+ - GitHub Actions
+ - GitHub Security
+
+Each lab created within this repository has been created with a set of instructions. Continue through the.readme file to start your development...
+## LAB 1 - Git ⚙️
+## LAB 2 - Pull Requests & Issues 🩺
+##  LAB 3 - GitHub Actions 💥
+## LAB 4 - GitHub Security 🔒
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # GitHub Discovery Workshop
 
 ## Presentation Deck
