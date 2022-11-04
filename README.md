@@ -27,7 +27,19 @@ Before we undertake this workshop, there are a few steps to carry out:
 ### What is Git?
 Git is the global leader for **Version Control Software**. It’s free and open source which means it's actively managed by the wider community and is in continuous development for improvement. Git also provides a Distributed Version Control. Each Engineer working on a version of the code repository will contain a full list of changes that have taken place within the repository. The advantage of this is that Version History is not subject to a single location leading to a single point of failure.
 
-Git provides speed and efficiency which is one of the contributing factors on why it is the industry leading version control. Software and DevOps Engineers rely heavily on Git and its list of functionalities to help manage their project source code on a day-today basis. Some of the functionalities utilised by Engineers will cover in **Lab -1**.
+Git provides speed and efficiency which is one of the contributing factors on why it is the industry leading version control. Software and DevOps Engineers rely heavily on Git and its list of functionalities to help manage their project source code on a day-today basis. Some of the functionalities utilised by Engineers will cover in this lab.
+
+### Functionalities
+
+ - [ ] git init
+ - [ ] git checkout "**Branch Name**"
+ - [ ] git branch
+ - [ ] git add
+ - [ ] git commit -m "**Your Commit Message...**"
+ - [ ] git status
+ - [ ] git push
+ - [ ] git pull
+ - [ ] git log
 
 
 
