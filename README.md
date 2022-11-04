@@ -26,13 +26,14 @@ Before we undertake this workshop, there are a few steps to carry out:
 
 </details>
 
-## LAB 1 - Git ⚙️
+<details id=2 open> 
+<summary><h2> LAB 1 - Git ⚙️</h2></summary>
+
 ![image](./doc/image/git.png)
 ### What is Git?
 Git is the global leader for **Version Control Software**. It’s free and open source which means it's actively managed by the wider community and is in continuous development for improvement. Git also provides a Distributed Version Control. Each Engineer working on a version of the code repository will contain a full list of changes that have taken place within the repository. The advantage of this is that Version History is not subject to a single location leading to a single point of failure.
 
 Git provides speed and efficiency which is one of the contributing factors on why it is the industry leading version control. Software and DevOps Engineers rely heavily on Git and its list of functionalities to help manage their project source code on a day-today basis. Some of the functionalities utilised by Engineers will cover in this lab.
-
 ### Functionalities
 
  - [ ] git init
@@ -49,16 +50,27 @@ Git provides speed and efficiency which is one of the contributing factors on wh
 
 Lab 1 is based all around Git functionality and how engineering teams apply the above to their projects in order to manage their codebase. To do this, you are going to walk through a set of steps:
 
+</details>
 
 
 
+<details id=3 open> 
+<summary><h2> LAB 2 - Pull Requests & Issues 🩺</h2></summary>
 
 
-## LAB 2 - Pull Requests & Issues 🩺
+</details>
 
-##  LAB 3 - GitHub Actions 💥
+<details id=4 open> 
+<summary><h2> LAB 3 - GitHub Actions 💥</h2></summary>
 
-## LAB 4 - GitHub Security 🔒
+
+</details>
+
+<details id=5 open> 
+<summary><h2> LAB 4 - GitHub Security 🔒</h2></summary>
+
+
+</details>
 
 
 
