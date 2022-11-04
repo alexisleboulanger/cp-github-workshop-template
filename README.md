@@ -15,8 +15,9 @@ The labs setup within the **Welcome to Insight’s Workshop** repository will pr
  - GitHub Security
 
 Each lab created within this repository has been created with a set of instructions. Continue through the.readme file to start your development...
-<details>
-<summary>## Prerequisites ✋</summary>
+
+<details id=1 open>
+<summary><h2> Prerequisites ✋</h2></summary>
 
 Before we undertake this workshop, there are a few steps to carry out:
 
