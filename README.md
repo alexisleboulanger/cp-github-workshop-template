@@ -15,7 +15,24 @@ The labs setup within the **Welcome to Insight’s Workshop** repository will pr
  - GitHub Security
 
 Each lab created within this repository has been created with a set of instructions. Continue through the.readme file to start your development...
+## Prerequisites ✋
+
+Before we undertake this workshop, there are a few steps to carry out:
+
+ 1. Install Git onto your Lab Device [Git Install Page](https://git-scm.com/downloads)
+ 2. Install Visual Studio Code onto your Lab Device [VS Code Install Page](https://code.visualstudio.com/)
+ 3. 
 ## LAB 1 - Git ⚙️
+![image](./doc/image/git.png)
+### What is Git?
+Git is the global leader for **Version Control Software**. It’s free and open source which means it's actively managed by the wider community and is in continuous development for improvement. Git also provides a Distributed Version Control. Each Engineer working on a version of the code repository will contain a full list of changes that have taken place within the repository. The advantage of this is that Version History is not subject to a single location leading to a single point of failure.
+
+Git provides speed and efficiency which is one of the contributing factors on why it is the industry leading version control. Software and DevOps Engineers rely heavily on Git and its list of functionalities to help manage their project source code on a day-today basis. Some of the functionalities utilised by Engineers will cover in **Lab -1**.
+
+
+
+
+
 
 ## LAB 2 - Pull Requests & Issues 🩺
 
