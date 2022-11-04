@@ -1,5 +1,5 @@
 # Welcome to Insight's Workshop
-
+![image](./doc/image/insightxgithub.png)
 
 ## Hi There 👋
 
@@ -16,9 +16,13 @@ The labs setup within the **Welcome to Insight’s Workshop** repository will pr
 
 Each lab created within this repository has been created with a set of instructions. Continue through the.readme file to start your development...
 ## LAB 1 - Git ⚙️
+
 ## LAB 2 - Pull Requests & Issues 🩺
+
 ##  LAB 3 - GitHub Actions 💥
+
 ## LAB 4 - GitHub Security 🔒
+
 
 
 
