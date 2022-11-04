@@ -15,13 +15,15 @@ The labs setup within the **Welcome to Insight’s Workshop** repository will pr
  - GitHub Security
 
 Each lab created within this repository has been created with a set of instructions. Continue through the.readme file to start your development...
-## Prerequisites ✋
+<details>
+<summary>## Prerequisites ✋</summary>
 
 Before we undertake this workshop, there are a few steps to carry out:
 
  1. Install Git onto your Lab Device [Git Install Page](https://git-scm.com/downloads)
  2. Install Visual Studio Code onto your Lab Device [VS Code Install Page](https://code.visualstudio.com/)
- 3. 
+
+<details>
 ## LAB 1 - Git ⚙️
 ![image](./doc/image/git.png)
 ### What is Git?
@@ -43,7 +45,9 @@ Git provides speed and efficiency which is one of the contributing factors on wh
 
 ### Exercise
 
-Lab 1 is based all around Git functionality and how engineering teams apply the above to their projects in order to manage their codebase.
+Lab 1 is based all around Git functionality and how engineering teams apply the above to their projects in order to manage their codebase. To do this, you are going to walk through a set of steps:
+
+
 
 
 
