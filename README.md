@@ -41,7 +41,9 @@ Git provides speed and efficiency which is one of the contributing factors on wh
  - [ ] git pull
  - [ ] git log
 
+### Exercise
 
+Lab 1 is based all around Git functionality and how engineering teams apply the above to their projects in order to manage their codebase.
 
 
 
