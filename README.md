@@ -23,7 +23,8 @@ Before we undertake this workshop, there are a few steps to carry out:
  1. Install Git onto your Lab Device [Git Install Page](https://git-scm.com/downloads)
  2. Install Visual Studio Code onto your Lab Device [VS Code Install Page](https://code.visualstudio.com/)
 
-<details>
+</details>
+
 ## LAB 1 - Git ⚙️
 ![image](./doc/image/git.png)
 ### What is Git?
