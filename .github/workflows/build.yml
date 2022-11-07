@@ -1,4 +1,4 @@
-name: dotnet package
+name: dotnet build action
 
 on: [push]
 
@@ -15,7 +15,9 @@ jobs:
           dotnet-version: '5.0.x'
 
       - name: Install dependencies
+        working-directory: ./src/dotnetapp
         run: dotnet restore
 
       - name: Build
+        working-directory: ./src/dotnetapp
         run: dotnet build --configuration Release --no-restore

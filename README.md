@@ -131,7 +131,7 @@ Add a .github/workflows/build.yml with a job section
 
 ```yml
 #.net build yml code to copy into .github/workflows/build.yml
-name: dotnet package
+name: dotnet build action
 
 on: [push]
 
@@ -139,22 +139,21 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet-version: ['3.0', '3.1.x', '5.0.x' ]
-
     steps:
       - uses: actions/checkout@v3
-      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
+
+      - name: Setup .NET Core SDK '5.0.x' 
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: ${{ matrix.dotnet-version }}
+          dotnet-version: '5.0.x'
+
       - name: Install dependencies
+        working-directory: ./src/dotnetapp
         run: dotnet restore
+
       - name: Build
+        working-directory: ./src/dotnetapp
         run: dotnet build --configuration Release --no-restore
-      - name: Test
-        run: dotnet test --no-restore --verbosity normal
 ```
 
 #### Push job and execute
