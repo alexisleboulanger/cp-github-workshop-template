@@ -55,7 +55,7 @@ Git provides speed and efficiency which is one of the contributing factors on wh
 - [ ] `git branch` (Create a new branch)
 - [ ] `git add` (Adds changes to in a aprticular file to the next commit)
 - [ ] `git status` (Shows untracked files and the state of the working & staging directory)
-- [ ] `git commit -m "**Your Commit Message...**"` (Commits staged changes to your branch associated with your commit message for auditing)
+- [ ] `git commit -m "Your Commit Message..."` (Commits staged changes to your branch associated with your commit message for auditing)
 - [ ] `git push` (Upload changes from local repository to remote repository)
 - [ ] `git pull` (Download changes from remote repository to local repository)
 - [ ] `git log` (View history of changes in repository)
@@ -64,7 +64,15 @@ Git provides speed and efficiency which is one of the contributing factors on wh
 
 Lab 1 is based all around Git functionality and how engineering teams apply the above to their projects in order to manage their codebase. To do this, you are going to walk through a set of steps:
 
-#### Fork the template
+#### Use this template
+
+1. At the top of this repository, click the **Use this template** button
+![image](doc/image/templatebutton.png)
+
+2. Fill out the template creation ⬇️
+![image](./doc/image/templatecreation.png)
+
+3. The repository will begin to create. Refresh your webpage after 30 seconds and have 2 x webpages open to view changes you commit to your cloned repository.
 
 #### Clone the solution
 
