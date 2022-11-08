@@ -51,7 +51,7 @@ Git provides speed and efficiency which is one of the contributing factors on wh
 
 - [ ] `git init` (Creates a new Git Repository)
 - [ ] `git clone` (Clone a Repository locally)
-- [ ] `git checkout` "**Branch Name**" (Create a new Branch and **SWITCH TO IT**)
+- [ ] `git checkout "Branch Name"` (Create a new Branch and **SWITCH TO IT**)
 - [ ] `git branch` (Create a new branch)
 - [ ] `git add` (Adds changes to in a aprticular file to the next commit)
 - [ ] `git status` (Shows untracked files and the state of the working & staging directory)
