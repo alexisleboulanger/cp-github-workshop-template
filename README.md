@@ -49,15 +49,16 @@ Git provides speed and efficiency which is one of the contributing factors on wh
 
 ### Functionalities
 
-- [ ] git init/clone
-- [ ] git checkout "**Branch Name**"
-- [ ] git branch
-- [ ] git add
-- [ ] git commit -m "**Your Commit Message...**"
-- [ ] git status
-- [ ] git push
-- [ ] git pull
-- [ ] git log
+- [ ] git init (Creates a new Git Repository)
+- [ ] git clone (Clone a Repository locally)
+- [ ] git checkout "**Branch Name**" (Create a new Branch and **SWITCH TO IT**)
+- [ ] git branch (Create a new branch)
+- [ ] git add (Adds changes to in a aprticular file to the next commit)
+- [ ] git status (Shows untracked files and the state of the working & staging directory)
+- [ ] git commit -m "**Your Commit Message...**" (Commits staged changes to your branch associated with your commit message for auditing)
+- [ ] git push (Upload changes from local repository to remote repository)
+- [ ] git pull (Download changes from remote repository to local repository)
+- [ ] git log (View history of changes in repository)
 
 ### Exercise
 
