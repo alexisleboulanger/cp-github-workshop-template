@@ -88,7 +88,7 @@ git log
 
 </details>
 
-<details id=3 open> 
+<details id=3> 
 <summary><h2> LAB 2 - Pull Requests & Issues 🩺</h2></summary>
 
 #### Secure de main branch
@@ -120,7 +120,7 @@ It should fail with security in place
 
 </details>
 
-<details id=4 open> 
+<details id=4> 
 <summary><h2> LAB 3 - GitHub Actions 💥</h2></summary>
 
 #### Add to workflow/job
@@ -161,7 +161,7 @@ jobs:
 
 </details>
 
-<details id=5 open> 
+<details id=5> 
 <summary><h2> LAB 4 - GitHub Security 🔒</h2></summary>
 
 #### Dependency Graph
