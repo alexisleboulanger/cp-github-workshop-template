@@ -164,8 +164,6 @@ jobs:
 <details id=5 open> 
 <summary><h2> LAB 4 - GitHub Security 🔒</h2></summary>
 
-</details>
-
 #### Dependency Graph
 
 Show .net nuget dependencies
@@ -184,6 +182,7 @@ Move it to GitHub secrets
 Solve issues
 
 #### Push job and execute
+</details>
 
 
 # GitHub Discovery Workshop
