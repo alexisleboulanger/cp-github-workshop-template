@@ -24,10 +24,19 @@ Before we undertake this workshop, there are a few steps to carry out:
 
  1. Install Git onto your Lab Device [Git Install Page](https://git-scm.com/downloads)
  2. Install Visual Studio Code onto your Lab Device [VS Code Install Page](https://code.visualstudio.com/)
+ 3. Open VS Code and Run Terminal;
+
+   ```sh
+$ git config --global user.name "Your Name"
+$ git config --global user.email "your.email@example.com"
+```
+
+4. Clone this repository template
+5. Navigate to **Lab 1 - Git**
 
 </details>
 
-<details id=2 > 
+<details id=2> 
 <summary><h2> LAB 1 - Git ⚙️</h2></summary>
 
 ![image](./doc/image/git.png)
