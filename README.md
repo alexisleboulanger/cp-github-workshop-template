@@ -95,8 +95,8 @@ git checkout -b feature/my-branch
 # git checkout feature/my-branch
  
  git branch
-# main
 # * feature/my-branch
+# main
 ```
 
 #### Create a new CHANGELOG file, add, commit & push
@@ -115,15 +115,32 @@ Browse for Git Graph extension on VSCode and install :
 
 ![gitgraph](doc/image/gitgraph.png)
 
-Show the current graph : 
+Show the current graph :
 
+![gitgraph2](doc/image/gitgraph2.png)
 
+You should see this :
+
+![origin](doc/image/origin-graph.png)
+
+You can see a new commit is child from the origin/main on the origin/feature/my-branch branch.
+
+(we'll get to the origin/dependabot/... later...)
 
 #### Log your changes to the CHANGELOG
 
 ```sh
-git log
 # logs the latest changes you've committed
+git log
+# commit $guid2  (HEAD -> feature/my-branch, origin/feature/my-branch)
+# Author: $user
+# Date:   $date2
+
+#     Added a new CHANGELOG
+
+# commit $guid1 (origin/main, origin/HEAD, main)
+# Author: $user
+# Date:   $date1
 # :q to escape
 ```
 
@@ -131,24 +148,110 @@ git log
 
 #### Secure de main branch
 
-- Only the learner can push code on the main branch
-- Only a PR can push code on the main branch
+Now we'll make sure anybody cannot push anykind of code on the main branch without validation.
+For that we'll set a policy on the main branch :
 
-Setting > Branches > Protection Rules
+> Go to Settings >
 
-Add a rule for main branch
+![settings](doc/image/settings.png)
 
-- Require a PR
-- Require approval
-- Lock branch
+> Branches >
 
-(set an action validating when done)
+![branches](doc/image/branches.png)
+
+> Add a new branch protection rule where
+>
+> - Only a PR can push code on the main branch
+>   - Check "Require a pull request before merging"
+>   - Check "Require approvals"
+
+![main-branch-protection](doc/image/main-branch-protection.png)
+
+> Make sure yourself are not allowed to bypass these settings ;)
+![main-branch-protection2](doc/image/main-branch-protection2.png)
+
+The main is set
 
 #### Try add/commit/push on main branch
 
+Lets try commit on the main branch
+
+```sh
+# Create the CHANGELOG file
+git checkout main
+# Add the LICENSE file
+git add .
+git commit -m "Added a new LICENSE"
+# now the commit shall not be pushed
+git push
+# Enumerating objects: 4, done.
+# Counting objects: 100% (4/4), done.
+# Delta compression using up to 8 threads
+# Compressing objects: 100% (2/2), done.
+# Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+# Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+# remote: error: GH006: Protected branch update failed for refs/heads/main.
+# remote: error: Cannot change this locked branch At least 1 approving review is required by reviewers with write access.
+# To https://github.com/$user/cp-github-workshop-template.git
+#  ! [remote rejected] main -> main (protected branch hook declined)
+# error: failed to push some refs to 'https://github.com/$user/cp-github-workshop-template.git'
+```
+
 It should fail with security in place
 
-#### PR the changes on feature/my-branch
+#### Pull Request (PR) the changes on feature/my-branch
+
+We need to pass our commits from feature/my-branch to main branch by a standard validation process.
+
+For that let's create a PR :
+
+> Open the pull request menu
+
+![pr](doc/image/pr.png)
+
+> Create the PR from "feature/my-branch" to main
+> Don't forget to make sure the base is "main"
+
+![pr2](doc/image/pr2.png)
+
+Now we need an assignee to validate the request. Normally it is your techlead that would just do that. But for now let's just choose ourselves (never do that ;)).
+
+> Open the PR (if it is not already opened)
+> Chose your assignee as yourself
+
+![pr-assignee](doc/image/pr-assign.png)
+
+> Chose your assignee as yourself
+> 
+![pr-approve](doc/image/pr-approve.png)
+
+Observe you cannot approve your own PR !! 
+
+> Either ask for a friend and set him as a reviewer to approve your code
+> Or unset the branch protection "Require approval" policy on "main branch"
+
+Now you can merge !!
+
+![pr-merge](doc/image/pr-merge.png)
+
+Confirm the merge with a merge commit specific comment
+![pr-confirm-merge](doc/image/pr-confirm-merge.png)
+
+The merge is done
+![pr-merged](doc/image/pr-merged.png)
+
+Check with git graph the result
+
+```sh
+# Fetching the new changes without applying them
+git fetch
+```
+
+See the result on graph
+![gitgraph-merged](doc/image/gitgraph-merged.png)
+
+Well done !!!
 
 #### Approve/Merge the changes from feature/my-branch to main
 
