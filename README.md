@@ -2,6 +2,8 @@
 
 ![image](./doc/image/insightxgithub.png)
 
+[Project Docs Here](./doc/Documentation.md)
+
 ## Hi There 👋
 
 Welcome to Insight's workshop on GitHub!
