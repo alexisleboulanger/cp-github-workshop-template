@@ -50,8 +50,19 @@ pandoc -s .\Architecture.md -f markdown -t docx -o Architecture.docx
 ### Instal dependensee
 
 ```sh
-cd apps
-
 dotnet tool update -g dependensee
 ```
 
+### Graph gen
+
+### Generation du graph
+
+```sh
+cd src/dotnetapp
+# without nugets
+dependensee -T Html -S . -O ../../doc/graph/graph.html -HT App-Depedencies
+# with nugets
+dependensee -T Html -S . -O ../../doc/graph/graph.html -P -HT App-Depedencies
+```
+
+![dependensee graph](image/dependensee.PNG)
