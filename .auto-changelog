@@ -1,0 +1,9 @@
+{
+  "output": "CHANGELOG.md",
+  "template": "./doc/.auto-changelog/template.hbs",
+  "unreleased": true,
+  "commitLimit": false,
+  "sortCommits": "date",
+  "releaseSummary" : true,
+  "tagPattern": "v.+"
+}
